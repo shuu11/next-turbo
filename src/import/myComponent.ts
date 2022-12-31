@@ -1,3 +1,3 @@
-import styles from '../styles/Home.module.css'
+import { theme } from 'themes'
 
-export { styles }
+export { theme }

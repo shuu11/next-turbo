@@ -10,8 +10,10 @@ module.exports = {
 		'plugin:import/recommended',
 		'plugin:import/typescript',
 	],
+
 	rules: {
 		'react/react-in-jsx-scope': 'off',
+		'@typescript-eslint/ban-types': 'off',
 		'import/order': [
 			2,
 			{
@@ -24,7 +26,7 @@ module.exports = {
 		'prettier/prettier': [
 			'error',
 			{
-				printWidth: 200,
+				// printWidth: 100,
 				tabWidth: 2,
 				useTabs: true,
 				semi: false,
