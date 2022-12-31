@@ -6,8 +6,8 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-		"lint": "next lint --dir pages",
-		"format": "next lint --fix --dir pages"
+		"lint": "next lint --dir src",
+		"format": "next lint --fix --dir src"
   },
   "dependencies": {
     "@next/font": "13.1.1",
