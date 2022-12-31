@@ -1,4 +1,5 @@
-import { Image } from 'import/next'
+import { Image } from '@/next'
+import { Box, Flex, Button } from '@/components'
 
 export default function Home() {
 	return (
@@ -11,6 +12,23 @@ export default function Home() {
 					By <Image src="/vercel.svg" alt="Vercel Logo" width={100} height={24} priority />
 				</a>
 			</div>
+
+			<Box backgroundColor={{ base: 'red' }} marginTop={{ base: '20px' }}>
+				sadfasd
+			</Box>
+			<Flex
+				width={{ base: '100%', md: '1040px' }}
+				justifyContent="space-around"
+				alignItems="center"
+				flexDirection={{ base: 'column', md: 'row' }}>
+				<Box backgroundColor="green">本</Box>
+				<Box>図鑑</Box>
+				<Box>ノート</Box>
+			</Flex>
+
+			<Button backgroundColor="blue" margin="2px" padding="20px">
+				sssss
+			</Button>
 		</>
 	)
 }

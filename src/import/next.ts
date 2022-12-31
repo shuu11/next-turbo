@@ -1,4 +1,6 @@
-// react,next
+/**
+ * React & Next
+ */
 import React from 'react'
 
 import type { AppProps } from 'next/app'
@@ -10,7 +12,9 @@ import Script from 'next/script'
 export type { AppProps }
 export { React, Head, Image, Link, Script }
 
-// styled-components
-import { createGlobalStyle } from 'styled-components'
+/**
+ * Styled-Components
+ */
+import styled, { createGlobalStyle } from 'styled-components'
 
-export { createGlobalStyle }
+export { styled, createGlobalStyle }

@@ -1,6 +1,6 @@
-import { Head, createGlobalStyle } from 'import/next'
-import type { AppProps } from 'import/next'
-import { theme } from 'import/myComponent'
+import { Head, createGlobalStyle } from '@/next'
+import type { AppProps } from '@/next'
+import { theme } from '@/themes'
 
 // グローバルのスタイル
 const GlobalStyle = createGlobalStyle`
