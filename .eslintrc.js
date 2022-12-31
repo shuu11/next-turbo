@@ -15,9 +15,9 @@ module.exports = {
 		'import/order': [
 			2,
 			{
-				alphabetize: {
-					order: 'asc',
-				},
+				// alphabetize: {
+				// 	order: 'asc',
+				// },
 			},
 		],
 
