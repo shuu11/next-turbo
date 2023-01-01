@@ -1,5 +1,23 @@
-import { Image } from '@/next'
-import { Box, Flex, Button } from '@/components'
+import { Image, Link } from '@/next'
+import {
+	Box,
+	BreadcrumbItem,
+	Badge,
+	Flex,
+	Button,
+	AppLogo,
+	Text,
+	CloseIcon,
+	SearchIcon,
+	CloudUploadIcon,
+	CancelIcon,
+	CheckBoxOutlineBlankIcon,
+	CheckBoxIcon,
+	PersonIcon,
+	GitHubIcon,
+	PersonOutlineIcon,
+	ShoppingCartIcon,
+} from '@/components'
 
 export default function Home() {
 	return (
@@ -29,6 +47,38 @@ export default function Home() {
 			<Button backgroundColor="blue" margin="2px" padding="20px">
 				sssss
 			</Button>
+
+			<Link href="/" passHref>
+				<AppLogo />
+			</Link>
+
+			<Text>sdfasdfa</Text>
+
+			<Badge content="1" backgroundColor="blue"></Badge>
+
+			<BreadcrumbItem>
+				<Link href="/">1</Link>
+			</BreadcrumbItem>
+			<BreadcrumbItem>
+				<Link href="/">2</Link>
+			</BreadcrumbItem>
+			<BreadcrumbItem>
+				<Link href="/">3</Link>
+			</BreadcrumbItem>
+			<BreadcrumbItem>
+				<Link href="/">4</Link>
+			</BreadcrumbItem>
+
+			<CloseIcon size={30} backgroundColor="yellow" />
+			<SearchIcon size={30} backgroundColor="yellow" />
+			<CloudUploadIcon size={30} backgroundColor="yellow" />
+			<CancelIcon size={30} backgroundColor="yellow" />
+			<CheckBoxOutlineBlankIcon size={30} backgroundColor="yellow" />
+			<CheckBoxIcon size={30} backgroundColor="yellow" />
+			<PersonIcon size={30} backgroundColor="yellow" />
+			<GitHubIcon size={30} backgroundColor="yellow" />
+			<PersonOutlineIcon size={30} backgroundColor="yellow" />
+			<ShoppingCartIcon size={30} backgroundColor="yellow" />
 		</>
 	)
 }

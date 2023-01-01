@@ -1,4 +1,4 @@
-import { Head, createGlobalStyle } from '@/next'
+import { Head, createGlobalStyle, ThemeProvider } from '@/next'
 import type { AppProps } from '@/next'
 import { theme } from '@/themes'
 
@@ -56,7 +56,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="twitter:site" content="@truck2hand" /> */}
 			</Head>
 			<GlobalStyle />
-			<Component {...pageProps} />
+			<ThemeProvider theme={theme}>
+				<Component {...pageProps} />
+			</ThemeProvider>
 		</>
 	)
 }

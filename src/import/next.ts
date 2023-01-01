@@ -15,6 +15,6 @@ export { React, Head, Image, Link, Script }
 /**
  * Styled-Components
  */
-import styled, { createGlobalStyle } from 'styled-components'
+import styled, { css, createGlobalStyle, ThemeProvider } from 'styled-components'
 
-export { styled, createGlobalStyle }
+export { styled, css, createGlobalStyle, ThemeProvider }
