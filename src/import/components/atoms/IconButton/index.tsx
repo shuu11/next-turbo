@@ -1,15 +1,13 @@
-import {
-	Search,
-	PersonOutline,
-	ShoppingCart,
-	CheckBoxOutlineBlank,
-	CheckBox,
-	Cancel,
-	CloudUpload,
-	Close,
-	GitHub,
-	Person,
-} from '@mui/icons-material'
+import Search from '@mui/icons-material/Search'
+import PersonOutline from '@mui/icons-material/PersonOutline'
+import ShoppingCart from '@mui/icons-material/ShoppingCart'
+import CheckBoxOutlineBlank from '@mui/icons-material/CheckBoxOutlineBlank'
+import CheckBox from '@mui/icons-material/CheckBox'
+import Cancel from '@mui/icons-material/Cancel'
+import CloudUpload from '@mui/icons-material/CloudUpload'
+import Close from '@mui/icons-material/Close'
+import GitHub from '@mui/icons-material/GitHub'
+import Person from '@mui/icons-material/Person'
 import SvgIcon from '@mui/material/SvgIcon'
 import { styled } from '@/next'
 import { theme } from '@/themes'
